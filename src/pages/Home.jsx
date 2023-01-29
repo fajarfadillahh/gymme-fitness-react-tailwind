@@ -34,8 +34,8 @@ const Home = () => {
       <Join />
       <Footer />
 
-      {/* for test scrolling */}
-      {/* <div className="h-[4000px]"/> */}
+      {/* for bg color when scrolling down */}
+      <div className="h-[4000px]" />
     </div>
   );
 };

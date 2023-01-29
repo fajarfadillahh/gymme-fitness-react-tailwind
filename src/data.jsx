@@ -23,10 +23,11 @@ import QuestionMarkIcn from "./assets/images/faq/icons/question-mark.svg";
 export const header = {
   logo: Logo,
   btnLoginText: "Log in",
-  btnSignupText: "Sign Up",
+  btnSignupText: "Sign up",
 };
 
 export const nav = [
+  { name: "Home", href: "/home" },
   { name: "About", href: "/about" },
   { name: "Workouts", href: "/workouts" },
   { name: "Pricing", href: "/pricing" },
