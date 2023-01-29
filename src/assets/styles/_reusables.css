@@ -1,0 +1,67 @@
+@layer base {
+  body {
+    @apply bg-[#e5e5e5] font-secondary text-neutral-400;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary text-neutral-500;
+  }
+  .h1 {
+    @apply text-[40px] font-extrabold leading-[40px] lg:text-[60px] lg:leading-[62px];
+  }
+  .h2 {
+    @apply text-[32px] font-extrabold leading-[40px] lg:text-[50px] lg:leading-[50px];
+  }
+  .h3 {
+    @apply text-[38px] font-extrabold leading-[46px];
+  }
+  .h4 {
+    @apply text-[30px] font-extrabold leading-[46px];
+  }
+  .h5 {
+    @apply text-[24px] font-extrabold leading-[32px];
+  }
+  .h6 {
+    @apply text-[18px] font-bold leading-[28px];
+  }
+  .text-body-sm {
+    @apply font-secondary text-[16px] font-normal leading-[26px];
+  }
+  .text-body-md {
+    @apply font-secondary text-[20px] font-normal leading-[32px];
+  }
+  .text-body-lg {
+    @apply font-secondary text-[24px] font-normal leading-[34px];
+  }
+  .btn {
+    @apply flex items-center justify-center rounded-[1px];
+  }
+  .btn-sm {
+    @apply h-[42px] px-[30px] font-primary text-[12px] font-bold uppercase leading-[18px] tracking-[1px];
+  }
+  .btn-lg {
+    @apply h-[46px] px-[40px] font-primary text-[14px] font-bold uppercase leading-[18px] tracking-[1px];
+  }
+  .btn-primary {
+    @apply bg-primary-200 text-neutral-100 transition hover:bg-primary-200/90;
+  }
+  .btn-secondary {
+    @apply bg-white text-neutral-500 transition hover:bg-white/90;
+  }
+  .link {
+    @apply text-sm font-extrabold uppercase tracking-[1px] text-neutral-500;
+  }
+  .section {
+    @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
+  }
+  .section-title-group {
+    @apply mb-[50px] flex items-center justify-center -space-x-20 lg:mb-[80px];
+  }
+  .section-title {
+    @apply flex -space-x-4;
+  }
+}
