@@ -27,11 +27,11 @@ export const header = {
 };
 
 export const nav = [
-  { name: "About", href: "/" },
-  { name: "Workouts", href: "/" },
-  { name: "Pricing", href: "/" },
-  { name: "Community", href: "/" },
-  { name: "FAQ", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Workouts", href: "/workouts" },
+  { name: "Pricing", href: "/pricing" },
+  { name: "Community", href: "/community" },
+  { name: "FAQ", href: "/faq" },
 ];
 
 export const banner = {
