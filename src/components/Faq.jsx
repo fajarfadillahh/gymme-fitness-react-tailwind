@@ -10,7 +10,7 @@ const Faq = () => {
   // destructure faq data
   const { icon, title, accordions } = faq;
   return (
-    <section className="faq section pt-[480px] lg:pt-[280px]">
+    <section className="faq section mb-[80px] pt-[480px] lg:mb-0 lg:pt-[280px]">
       <div className="mx-auto max-w-[768px] bg-custom bg-center bg-no-repeat lg:h-[1160px] lg:bg-faq lg:pt-6">
         {/* faq title */}
         <div

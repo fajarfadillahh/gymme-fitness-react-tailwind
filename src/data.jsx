@@ -199,7 +199,7 @@ export const faq = {
 
 export const join = {
   image: JoinImg,
-  title: "Wanna join & have fun?",
+  title: "Want to join & have fun?",
   subtitle:
     "We'll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.",
   btnText: "Join now",
