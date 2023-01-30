@@ -35,7 +35,7 @@ const Home = () => {
       <Footer />
 
       {/* for bg color when scrolling down */}
-      <div className="h-[4000px]" />
+      {/* <div className="h-[4000px]" /> */}
     </div>
   );
 };
