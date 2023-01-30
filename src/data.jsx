@@ -27,7 +27,7 @@ export const header = {
 };
 
 export const nav = [
-  { name: "Home", href: "/home" },
+  { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Workouts", href: "/workouts" },
   { name: "Pricing", href: "/pricing" },
