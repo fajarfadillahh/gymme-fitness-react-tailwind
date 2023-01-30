@@ -14,6 +14,7 @@ import Community from "../components/Community";
 import Faq from "../components/Faq";
 import Join from "../components/Join";
 import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
   // initialization AOS
@@ -33,6 +34,7 @@ const Home = () => {
       <Faq />
       <Join />
       <Footer />
+      <ScrollToTop />
 
       {/* for bg color when scrolling down */}
       {/* <div className="h-[4000px]" /> */}
